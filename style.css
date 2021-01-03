@@ -1,0 +1,141 @@
+.my-color{
+    background-color: #e7008a;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.navbar-nav li{
+    padding: 0 5px;
+}
+.navbar-nav li a {
+    color: white !important;
+    text-transform: uppercase;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+#banner{
+    background-color: #e7008a;
+    color: white;
+    padding-top: 80px;
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.Play-btn{
+    width: 40px;
+    border-radius: 70%;
+}
+#banner a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+#services{
+    padding: 80px 0;
+}
+.service{
+    padding: 20px 0;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 3%;
+}
+.service h4{
+    padding: 5px;
+    margin-top: 10px;
+}
+.title::before{
+    content: '';
+    background: rgb(241, 5, 241);
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
+}
+
+.title::after{
+    content: '';
+    background: rgb(241, 5, 241);
+    height: 10px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    display: block;
+    
+}
+#services button {
+    margin-top: 30px;
+    background-image:linear-gradient(#ff00cc,#333399);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 40px;
+}
+
+#about-us{
+    background-color: whitesmoke;
+    padding: 40px 0;
+}
+#about-us p{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#testimonial{
+   margin: 100px;
+
+}
+#testimonial img{
+    width: 50px;
+    
+}
+.user-ditails{
+    font-size: 12px;
+    display: inline-block;
+}
+.ditails{
+    border-left: 6px solid ;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    margin-top: 40px;
+    margin-bottom: 50px;
+   
+}
+#social-icon{
+    background-color: #f9f8fa;
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+.social-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+#social-icon img{
+    width: 50px;
+    box-shadow: 5px 5px 10px lightgray;
+    padding-left: 3px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+#social-icon a:hover img{
+    transform: translateY(-30px);
+}
+#footer{
+    background-color: #e7008a;
+    color: white;
+}
+.footer-box img{
+    width: 90px;
+    margin-bottom: 8px;
+}
